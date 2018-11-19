@@ -5,10 +5,10 @@ Steps to get raspberry pi configured
 
 ## Getting the headless raspberry up and running:
 
-1- Download raspbian lite from here:
+- Download raspbian lite from here:
 https://www.raspberrypi.org/downloads/raspbian/
 
-2- Use a software like "win32diskimager" (if using Windows) to burn the .img file into a sd card
+- Use a software like "win32diskimager" (if using Windows) to burn the .img file into a sd card
 
 3- Once the image has finished burning, create an empty file called ssh in the root directory.
 
