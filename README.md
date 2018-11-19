@@ -10,11 +10,11 @@ https://www.raspberrypi.org/downloads/raspbian/
 
 - Use a software like "win32diskimager" (if using Windows) to burn the .img file into a sd card
 
-3- Once the image has finished burning, create an empty file called ssh in the root directory.
+- Once the image has finished burning, create an empty file called ssh in the root directory.
 
-4- Additionally, use the "wpa_passphrase" tool to generate network string specifications and psk.
+- Additionally, use the "wpa_passphrase" tool to generate network string specifications and psk.
 
-5- Create a file called wpa_supplicant.conf. Copy the results of the step 4 inside the file, and the following:
+- Create a file called wpa_supplicant.conf. Copy the results of the step 4 inside the file, and the following:
 
 `
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
@@ -22,7 +22,7 @@ update_config=1
 country=AU
 `
 
-6- The file should look like this
+- The file should look like this
 
 `
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
