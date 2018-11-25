@@ -20,15 +20,15 @@ https://www.raspberrypi.org/downloads/raspbian/
 
 - Create a file called wpa_supplicant.conf. Copy the results of the step 4 inside the file, and the following:
 
-`
+```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=AU
-`
+```
 
 - The file should look like this
 
-`
+```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=AU
@@ -38,6 +38,6 @@ network={
         #psk="<thepasswordtomynetwork>"
         psk=5a6dad56abe2df56b413cbea856796fbca12ca50b1998667fd838039187c2de
 }
-`
+```
 
 The psk value, is the encrypted password. Remember to remove the psk with your actual password.
