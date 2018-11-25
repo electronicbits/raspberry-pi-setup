@@ -3,7 +3,7 @@ Steps to get raspberry pi configured
 
 ![alt text](https://raw.githubusercontent.com/electronicbits/raspberry-pi-setup/master/Raspberry-Pi-3.jpg)
 
-##Architecture
+## Architecture
 
 ![alt text](https://raw.githubusercontent.com/electronicbits/raspberry-pi-setup/master/cam-network.png)
 
