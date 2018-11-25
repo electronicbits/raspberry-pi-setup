@@ -3,7 +3,11 @@ Steps to get raspberry pi configured
 
 ![alt text](https://raw.githubusercontent.com/electronicbits/raspberry-pi-setup/master/Raspberry-Pi-3.jpg)
 
-## Getting the headless raspberry up and running:
+##Architecture
+
+![alt text](https://raw.githubusercontent.com/electronicbits/raspberry-pi-setup/master/cam-network.png)
+
+## Instructions for installing a headless raspberry pi
 
 - Download raspbian lite from here:
 https://www.raspberrypi.org/downloads/raspbian/
